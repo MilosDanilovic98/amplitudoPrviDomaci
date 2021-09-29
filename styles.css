@@ -1,15 +1,18 @@
 .table {
   width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 5%;
+  border-collapse: collapse;
 }
 body {
   margin: 0;
 }
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
 thead tr {
-  /* border: 3px solid black; */
-  outline: 3px solid black;
+  border: 3px solid black;
+  /* outline: 3px solid black; */
 }
 tbody tr:nth-child(odd) {
   background-color: white;
